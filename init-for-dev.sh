@@ -3,6 +3,8 @@
 # Define the source and destination directories
 source_dir="git-hooks"
 destination_dir=".git/hooks"
+# If you are using git modules change the destination_dir to the following line:
+# destination_dir="../.git/modules/<module name>/hooks"
 
 # Check if the source directory exists
 if [ ! -d "$source_dir" ]; then
